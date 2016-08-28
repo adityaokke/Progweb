@@ -1,0 +1,9 @@
+<?php
+$server="localhost";
+$username="root";
+$password="";
+$database="krt";
+mysql_connect($server,$username,$password) or die("Gagal terhubung");
+mysql_select_db($database) or die ("Gagal terhubung ke database");
+//session_start();
+?>

@@ -1,0 +1,343 @@
+ 
+body{
+  font-family: "Century Gothic", Arial, "Courier New", Sans-Serif; 
+  margin: 0px auto;
+  height: 100%;
+  width: 100%
+}
+
+a{text-decoration:none;}
+
+#header{
+    width: 100%;
+    height: auto;
+    float: left;
+    background-color: #fe8101;
+    margin: 0px 0px 20px 0px;
+}
+
+#logo{
+    float:left;
+    height:auto;
+    width: 60px;
+    height: 80px;
+    margin: 0px 0px 0px 20.387% ;
+}
+
+#judul{
+    float: left;
+    width: 70%;
+    margin: 0px 0px 0px 20px;
+    color: white;
+}
+
+#nm{
+  margin-top: 1.57%;
+  margin-bottom: 0px;
+  font-weight:bold;
+  font-size: 30px;
+}
+
+#ins{
+  margin:0px 0px 0px 0px;
+  font-size: 21px;
+}
+
+
+#wrap{
+    width: 960px;
+    height: 666px;
+    margin: 0px auto;
+}
+
+#menu{
+	width: 130px;
+    margin: 0px 2.058% 0px 0px;
+	height: auto;
+	float: left;
+}
+
+#menu ul{
+	margin:0px;
+  height: auto;
+  float: left;
+  padding-left: 0px;
+}
+#menu ul > li{	
+    //margin: 0px 20px 0px 0px;
+    font-size: 14px ;    
+    list-style-type: none;
+    cursor: pointer;
+    display: inline-block;
+    width: 100%
+}
+#menu p{
+	margin: 0px;
+	display: inline-block;
+	float: left;
+  width: 100%;
+	text-transform:uppercase;
+}
+#menu ul li > hr{
+	border: 2px solid #fe8101;  
+	border-radius: 3px;
+	margin: 0px;
+	width: 97%;
+}
+
+.pop{
+	float: left;
+  display: inline-block;
+	position: absolute;
+    z-index: 1000;
+  padding: 0px;
+    width:auto;
+}
+.pop li{
+    width: auto;
+    background-color: #fe8101;
+    list-style-type: none;
+    padding-left: 3px;
+}
+
+.pop hr{
+  border: 1px solid #fff;
+  width: 90%;
+  margin: auto;
+  margin: 0px;
+}
+
+#content{
+	width: 810px;
+  height: 500px;
+	float: left;
+}
+
+button{
+  text-decoration: underline;
+  text-align: right;
+  border-style: none;
+  cursor: pointer;
+  background-color:  #fe8101;
+  color: white;
+}
+
+#jadwal button{
+  display: block;
+  margin: 10px auto 0px  auto;
+  padding: 5px;
+
+}
+
+.gmb{
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+}
+
+#mid{
+  width: 580px;
+  height: 100%;
+  height: auto;
+}
+#formPinjam{
+  width: 580px;
+  height: 100%;
+  height: auto;
+  float: left;
+  display: none;
+}
+
+#mid p{
+  font-size: 16px;
+}
+
+#tabs{
+  overflow: hidden;
+  width: 510px;
+  margin: 0px;
+  padding: 0;
+  list-style: none;
+  float: left;
+}
+#tabs li{
+  float: left;
+  margin:0px;
+  //overflow: hidden;
+  width: 170px;
+}
+#tabs a{
+  position: relative;
+  background: #fff;
+  padding: 0.2em 2em;
+  float: left;
+  text-decoration: none;
+  color: #fe8101;
+  text-shadow: 0 1px 0 rgba(255,255,255,.8);
+  box-shadow: 0 2px 2px rgba(0,0,0,.4);
+  border: 2px solid #fe8101;
+  overflow: hidden;
+  width: 100px;
+  height: 17px;
+}
+
+#tabs a:hover{
+  background: #000;
+  color: #fff;
+}
+
+#current a{
+  background: #000;
+  color: #fff;
+}
+#isiTab
+{
+  float: left;
+    background: #fff;
+    padding: 2em;
+    height: auto;
+    width: 516px;
+
+    position: relative;
+    z-index: 2; 
+    /*border-radius: 0 5px 5px 5px;*/
+    margin: 0px;
+    box-shadow: 0 -2px 3px -2px rgba(0, 0, 0, .5);
+    border: 1px solid #fe8101;
+    text-align:justify;
+}
+
+.cursor{
+  width: 30px;
+  height: 23px;
+  float: right;
+  /*position: absolute;*/
+  margin: 2px;
+  background-color:  #fe8101;
+  cursor: pointer;
+}
+
+#calendar{
+  width: 200px;
+  margin:0px;
+  float: right;
+  border: 2px solid #fe8101;
+  padding-bottom: 5px;
+}
+
+#table{
+  width: 200px;
+  float: left;
+  height: auto;
+}
+
+#thead,#tbody{
+  margin:0px 5px;
+  text-align: center;
+}
+#thead div{
+  float: left;
+  width: 27px;
+}
+
+#tbody div{
+  font-weight: bold;
+  border: 1px solid #fe8101;
+  width: 25px;
+  float: left;
+  cursor: pointer;
+}
+
+#tbody .prevCalendar,#tbody .nextCalendar{
+  color:gray;
+}
+
+.dateCursor{
+  width: 15px;
+  float: left;
+  cursor: pointer;
+  border: 4px solid #fe8101;
+}
+#month{  
+  padding: 0px;
+  margin: 0px;
+}
+
+#month li{
+  float: left;
+  width: 104px;
+  text-align: center;
+  list-style: none;
+}
+
+
+
+#year{
+  float: left;
+  width: 50px;
+}
+
+#monthYear{
+  width: 154px;
+  margin:auto;
+  float: left;
+  background-color: #fe8101;
+  font-size: 14pt;
+  margin-bottom: 5px;
+  color: white;
+}
+
+#tanggal{
+  float: left;
+  width: 100%;
+  text-align: center;
+  margin-top: 5px;
+}
+
+#formFasilitasHidden{
+  display: none;
+}
+
+#left{
+    width: 200px;
+  margin:0px 0px 0px 20px;
+  float: right;
+}
+#jadwal div {
+ // margin: 0px;
+float: left;
+ font-size: 10pt;
+ color: gray;
+}
+
+
+.acara{
+  width: 90px;
+line-height: 17px;
+margin-right: 10px;
+  overflow: hidden;
+}
+
+.mulai,.akhir{
+  width: 50px;
+}
+#req{
+  border: 2px solid #fe8101;
+  border-collapse: collapse;
+  font-size: 12px;
+}
+
+#req th{
+  border:2px solid #fe8101;
+  background-color: #fe8101;
+  color: white;
+  padding: 4px 8px;
+}
+
+
+
+
+#req td{
+  padding: 4px 8px;
+  border:1px solid #fe8101;
+}

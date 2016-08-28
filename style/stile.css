@@ -1,0 +1,93 @@
+body{
+  font-family: "Century Gothic", Arial, "Courier New", Sans-Serif; 
+    margin: 0px auto;
+  height: 100%;
+  width: 100%;
+  font-size:100%;
+}
+
+a{text-decoration:none;}
+
+#wrap{
+    width: 71.1639%;
+    height: 100%;
+    margin: 0px auto;
+}
+
+#header{
+    height: 100% ;
+    width: 100%;
+    float: left;
+    background-color: #fe8101;
+    margin: 0px 0px 20px 0px;
+}
+
+#logo{
+    float:left;
+    height:auto;
+    width: 4.45%;
+    margin-left: 20.387%
+}
+
+#logo img{
+    height: 100%; 
+    width : 100%;
+}
+
+#judul{
+    float: left;
+    width: 70%;
+    margin: 0px 0px 0px 20px;
+    color: white;
+
+}
+
+#nm{
+  margin-top: 3.92%;
+  margin-bottom: 0px;
+  
+  background-color: red;
+  font-weight:bold;
+}
+
+#ins{
+  margin:0px 0px 0px 0px;
+  font-size: 133%;
+}
+
+#content{
+    width: 100%;
+    height: auto;
+    margin : 0px;
+    float: left;
+}
+
+#menu{
+    height:100%;
+    width: 13.545%;
+}
+
+#subMenu {
+    list-style-type: none;
+    text-decoration: none;
+    margin-top: 10px;
+    width: 100%;
+    height: auto;
+    float: left;
+    padding : 0px;
+    margin : 0px;
+    float: left;
+    margin: 0px 20px 0px 0px;
+    font-size: 14px ;    
+}
+
+
+
+
+
+
+
+
+
+
+
